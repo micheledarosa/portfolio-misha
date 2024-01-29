@@ -1,0 +1,114 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('../images/galaxy.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #F6F6F6;
+    overflow-y: hidden;
+}
+
+body::after {
+    content: '';
+    position: absolute;
+    top: -30%;
+    left: 0;
+    width: 90%; 
+    height: 110%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, .7) 35%, transparent 65%);
+    z-index: -1;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 200px auto;
+    border: 16px;
+    max-width: 1200px;
+    gap: 30px;
+}
+
+.content .content__text {
+    font-weight: 400;
+    width: 580px;
+}
+
+h1 {
+    font-family: 'Krona One', sans-serif;  
+    font-size: 36px;
+    line-height: 56px;
+    height: 168px;
+}
+
+strong {
+    color: #E60FFA;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    height: 144px;
+    margin-top: 20px;
+}
+
+.buttons {
+    display: flex;
+    width: 593px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.buttons .buttons__social {
+    display: flex;
+    width: 275px;
+    height: 79px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #E60FFA;
+    margin-top: 51px;
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    transition: all .3s ease-in;
+}
+
+.buttons .buttons__social:hover {
+    background-color: transparent;
+    color: #E60FFA;
+    border: 3px solid #E60FFA;
+}
+
+.image {
+    width: 488px;
+    height: 550px;
+    flex-shrink: 0;
+    margin-top: 20px;
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-12px);
+    }
+}
+
+.animated {
+    animation: moveUpDown 3s infinite;
+}
