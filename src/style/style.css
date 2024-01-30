@@ -16,7 +16,7 @@ body::after {
     top: -30%;
     left: 0;
     width: 90%; 
-    height: 110%;
+    height: 150%;
     background: linear-gradient(90deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, .7) 35%, transparent 65%);
     z-index: -1;
 }
@@ -26,9 +26,9 @@ body::after {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin: 200px auto;
+    margin: 190px auto;
     border: 16px;
-    max-width: 1200px;
+    max-width: 1300px;
     gap: 30px;
 }
 
@@ -53,7 +53,7 @@ p {
     font-size: 24px;
     line-height: 36px;
     height: 144px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .buttons {
@@ -97,7 +97,8 @@ p {
     width: 488px;
     height: 550px;
     flex-shrink: 0;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
 @keyframes moveUpDown {
