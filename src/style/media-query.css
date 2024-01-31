@@ -43,7 +43,7 @@
 }
 
 /* Celular (Paisagem) */
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 480px) and ((max-width: 767px) or ((max-width: 991px) and (orientation: landscape))) {
   .content .content__text {
     width: 13rem;
   }
@@ -91,7 +91,7 @@
 }
 
 /* Tablet (Retrato) */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
   body {
     background-position: left;
   }
