@@ -33,6 +33,13 @@ width: 100vw - Adicionado;
 /* Obs: Convertir todas as medidas em "px" para "rem", com o objetivos de ajudar na responsividade! */
 ```
 
+## Referência utilizada na criação dos Media Query
+
+<div align="center"> 
+  
+![Breakpoints](src/images/Breakpoints.jpg)
+</div>
+
 ## Antes e Depois das Alterações
 
 ### Antes
