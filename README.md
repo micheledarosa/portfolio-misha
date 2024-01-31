@@ -1,6 +1,6 @@
 # Alterações
 
-## html
+## HTML
 
 ```HTML
 <div class="content__text"> Container excluido. </div>
@@ -10,7 +10,7 @@
 <figure class="image animated"> Foi inserido dentro da tag semântica "<aside>" </figure>
 ```
 
-## css
+## CSS
 
 ```CSS
 .body {
@@ -33,27 +33,23 @@ height: 100vh - Adicionado;
 ## Antes e Depois das Alterações
 
 ### Antes
-
-<div style="text-align: center;">
-
+<div align="center"> 
+  
 ![Desktop - Antes](src/images/Desktop%20-%20Antes.png)
-##
+####
 ![Tablet - Antes](src/images/Tablet%20-%20Antes.png)
-##
+####
 ![Mobile - Antes](src/images/Mobile%20-%20Antes.png)
-
 </div>
 
 ### Depois
-
-<div style="text-align: center;">
-
+<div align="center"> 
+  
 ![Desktop - Depois](src/images/Desktop%20-%20Depois.png)
-##
+####
 ![Tablet - Depois](src/images/)
-##
+####
 ![Mobile - Depois](Usrc/images/)
-
 </div>
 
 ## Extensão utilizada para os testes
@@ -67,5 +63,7 @@ Tablet: iPad Mini (768 x 1024)
 Mobile: iPhone 12 Mini (360 x 780)
 
 ---
+<div align="center"> 
 
-## Sinta-se à vontade para entrar em contato caso tenha alguma dúvida!
+#### Sinta-se à vontade para entrar em contato caso tenha alguma dúvida!
+</div>
