@@ -24,7 +24,9 @@ height: 150% alterado para height: 100vh;
 
 .content {
 height: 100vh - Adicionado;
-margin: 190px auto alterado para margin-left: 7.4rem;
+margin: 190px auto - Removido;
+max-width: 1300px - Removido;
+width: 100vw - Adicionado;
 }
 
 /* Arquivo "media-query.css" - Criado; */
