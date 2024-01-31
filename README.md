@@ -61,10 +61,8 @@ Simulador de celular - ferramenta de teste responsiva - Google Chrome.
 
 ### Dispositivos testados
 
-Desktop: Macbook Air (1280 x 800)
-####
-Tablet: iPad Mini (768 x 1024)
-####
+Desktop: Macbook Air (1280 x 800)  
+Tablet: iPad Mini (768 x 1024)  
 Mobile: iPhone 12 Mini (360 x 780)
 
 ---
