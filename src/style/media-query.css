@@ -1,0 +1,171 @@
+/* Celular (Retrato) */
+@media (min-width: 320px) and (max-width: 479px) {
+  body {
+    background-position: left;
+  }
+
+  .content .content__text {
+    width: 15rem;
+  }
+
+  h1 {
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.2rem;
+    height: 3.5rem;
+    width: 18rem;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    height: 4.5rem;
+    width: 18rem;
+    padding-right: 0.7rem;
+  }
+
+  .buttons {
+    gap: 0.9rem;
+  }
+
+  .buttons .buttons__social {
+    display: flex;
+    width: 7rem;
+    height: 2rem;
+    margin-top: 6rem;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .image {
+    display: none;
+  }
+}
+
+/* Celular (Paisagem) */
+@media (min-width: 480px) and ((max-width: 767px) or ((max-width: 991px) and (orientation: landscape))) {
+  .content .content__text {
+    width: 13rem;
+  }
+
+  h1 {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2rem;
+    height: 1.1rem;
+    width: 18rem;
+    padding-bottom: 1.7rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    height: 2rem;
+    width: 18rem;
+    padding-right: 0.7rem;
+  }
+
+  .buttons {
+    gap: 0.9rem;
+  }
+
+  .buttons .buttons__social {
+    display: flex;
+    width: 7rem;
+    height: 2rem;
+    margin-top: 5rem;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .image {
+    width: 13rem;
+    height: 16rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+  }
+
+  .image img {
+    width: 15rem;
+  }
+}
+
+/* Tablet (Retrato) */
+@media (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
+  body {
+    background-position: left;
+  }
+
+  .content .content__text {
+    width: 15rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    height: 7rem;
+    width: 25rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    height: 12rem;
+    width: 25rem;
+  }
+
+  .buttons .buttons__social {
+    display: flex;
+    width: 9rem;
+    height: 3rem;
+    margin-top: 4.5rem;
+    font-size: 1.5rem;
+    line-height: 1rem;
+  }
+
+  .image {
+    width: 22rem;
+    height: 30rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+  }
+
+  .image img {
+    width: 27rem;
+  }
+}
+
+/* Tablet (Paisagem) e Computadores Pequenos */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .content .content__text {
+    width: 20rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    height: 7rem;
+    width: 25rem;
+  }
+
+  p {
+    line-height: 2rem;
+    height: 12rem;
+    width: 25rem;
+  }
+
+  .buttons .buttons__social {
+    display: flex;
+    width: 10rem;
+    height: 3.5rem;
+    margin-top: 4.5rem;
+    font-size: 1.8rem;
+  }
+
+  .image {
+    width: 25rem;
+    height: 33rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+  }
+}
