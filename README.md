@@ -18,12 +18,13 @@ height: 100vh - Removido;
 }
 
 .body::after {
-"top = -30px" alterado para "top = 0";
-"height: 150%" alterado para "height: 100vh;"
+top = -30px alterado para top = 0;
+height: 150% alterado para height: 100vh;
 }
 
 .content {
 height: 100vh - Adicionado;
+margin: 190px auto alterado para margin-left: 7.4rem;
 }
 
 /* Arquivo "media-query.css" - Criado; */
@@ -59,7 +60,9 @@ Simulador de celular - ferramenta de teste responsiva - Google Chrome.
 ### Dispositivos testados
 
 Desktop: Macbook Air (1280 x 800)
+####
 Tablet: iPad Mini (768 x 1024)
+####
 Mobile: iPhone 12 Mini (360 x 780)
 
 ---
