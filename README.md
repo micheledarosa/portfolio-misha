@@ -1,6 +1,6 @@
 # Portfolio 🌌
 
-Este portfolio foi criado para fins de estudos, onde tentei aplicar o que aprendi na Imersão Front-End da [Alura](https://www.alura.com.br) e na imersão Do Zero ao Programador Contratado da [Dev em Dobro](https://devemdobro.com/matriculas-abertas/).
+Este portfolio foi criado para fins de estudos, onde tentei aplicar o que aprendi na *Imersão Front-End* da [Alura](https://www.alura.com.br) e na imersão *Do Zero ao Programador Contratado* da [Dev em Dobro](https://devemdobro.com/matriculas-abertas/).
 
 ### ✧ [Deploy](https://micheledarosa-portfoliomisha.netlify.app) ✧
 
