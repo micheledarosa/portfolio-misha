@@ -1,60 +1,27 @@
-# Alterações
+# Portfolio 🌌
 
-## HTML
+Este portfolio foi criado para fins de estudos, onde tentei aplicar o que aprendi na Imersão Front-End da [Alura](https://www.alura.com.br) e na imersão Do Zero ao Programador Contratado da [Dev em Dobro](https://devemdobro.com/matriculas-abertas/).
 
-```HTML
-<div class="content__text"> Container excluido. </div>
+### ✧ [Deploy](https://micheledarosa-portfoliomisha.netlify.app) ✧
 
-<main> O seu conteúdo agora vai da tag <h1> até a tag </address> e recebeu a class="content__text" </main>
+✧ Projeto em que me inspirei: [Portfolio Alura](https://micheledarosa-aluraportfolio.netlify.app)
 
-<figure class="image animated"> Foi inserido dentro da tag semântica "<aside>" </figure>
-```
+### **Focado em:**
 
-## CSS
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-```CSS
-.body {
-height: 100vh - Removido;
-}
 
-.body::after {
-top = -30px alterado para top = 0;
-height: 150% alterado para height: 100vh;
-}
+![Imgur](https://i.imgur.com/XQ1wD0d.png)
 
-.content {
-height: 100vh - Adicionado;
-margin: 190px auto - Removido;
-max-width: 1300px - Removido;
-width: 100vw - Adicionado;
-}
+### Toda a parte de responsividade foi graças ao contribuidor Thiago Maia! 
+-  Agradecimentos especiais para ele! Chequem suas redes:
+    -  [Linkedin](https://www.linkedin.com/in/maiath)
+    -  [GitHub](https://github.com/Maia-th)
 
-/* Arquivo "media-query.css" - Criado; */
-/* Obs: Convertir todas as medidas em "px" para "rem", com o objetivos de ajudar na responsividade! */
-```
+- Além disso, me deixou feedbacks sobre melhorias no projeto e sou muito grata por isso. 
+- Abaixo são imagens disponibilizadas pelo contribuidor, onde podemos ver o projeto em outros dispositivos 
 
-## Referência utilizada na criação dos Media Query
-
-<div align="center"> 
-  
-![Breakpoints](src/images/Breakpoints.jpg)
-</div>
-
-## Antes e Depois das Alterações
-
-### Antes
-<div align="center"> 
-  
-![Desktop - Antes](src/images/Desktop%20-%20Antes.png)
-####
-![Tablet - Antes](src/images/Tablet%20-%20Antes.png)
-####
-![Mobile R- Antes](src/images/MobileR%20-%20Antes.png)
-####
-![Mobile P- Antes](src/images/MobileP%20-%20Antes.png)
-</div>
-
-### Depois
 <div align="center"> 
   
 ![Desktop - Depois](src/images/Desktop%20-%20Depois.png)
@@ -66,18 +33,12 @@ width: 100vw - Adicionado;
 ![Mobile P- Depois](src/images/MobileP%20-%20Depois.png)
 </div>
 
-## Extensão utilizada para os testes
+## ✦.˳·˖✶ Extensão utilizada para os testes ✦.˳·˖✶
 
 Simulador de celular - ferramenta de teste responsiva - Google Chrome.
 
-### Dispositivos testados
+### Dispositivos testados 📱
 
-Desktop: Macbook Air (1280 x 800)  
-Tablet: iPad Mini (768 x 1024)  
-Mobile: iPhone 12 Mini (360 x 780)
-
----
-<div align="center"> 
-
-#### Sinta-se à vontade para entrar em contato caso tenha alguma dúvida!
-</div>
+✧ Desktop: Macbook Air (1280 x 800)  
+✧ Tablet: iPad Mini (768 x 1024)  
+✧ Mobile: iPhone 12 Mini (360 x 780)
